@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap');
+*{padding:0; margin:0; }
+body{padding:0; margin:0; background:#38ba86; overflow-x: hidden;}
+
+.wraper1{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+.wraper2{
+    background: #fff;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.wraper3 img{
+    width: 70%;
+}
+.wraper2 h2{
+    color: #000;
+    font: normal 20px/20px 'Roboto', sans-serif;
+    
+}
+.wraper2 label{
+    text-align: left;
+}
+.wraper2 button{
+    width: 100%;
+    border:none;
+    color:#fff;
+    background: #c0392b;
+    font: normal 14px/20px 'Roboto', sans-serif;
+}
+.wraper3 a{
+    background-color: none !important;
+    border-radius: 0px !important;
+}
+.wraper3 a:hover{
+    background-color: none !important;
+    border-radius: 0px !important;
+    color: transparent !important;
+}
+a.backzin{
+    background-color: #2f2c2c;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+}
+a.backzin:hover{
+    background: #0062cc;
+    color: #fff;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.wraper2 input[type="submit"]{
+    background-color: #2f2c2c;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    margin-top: 10px;
+}
+.wraper2 input[type="submit"]:hover{
+    background: #0062cc;
+    color: #fff; 
+}
+button.btn-default{
+       background-color: #2f2c2c;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+}
+@media (max-width: 991px){
+    .wraper1{
+        width: 45%;
+    } 
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    .wraper1{
+        width: 75%;
+    }  
+    .form-control{
+        height: 44px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 640px)  {
+ .wraper1{
+        width: 35%;
+    }    
+}
+@media only screen and (max-width: 639px) and (min-width: 480px)  {
+   .wraper1{
+        width: 45%;
+    }  
+}
+@media only screen and (max-width: 479px) and (min-width: 320px)  {
+    .wraper1{
+        width: 55%;
+    } 
+}
+
+
+
+
+
+
+
