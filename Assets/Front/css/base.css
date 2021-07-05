@@ -674,6 +674,9 @@ input {
 
 .bg-orangedark-color {
   background-color: #ff9700; }
+.bg-orangedark1-color {
+  background-color: #34568B;
+}
 
 .bg-green-color {
   background-color: #b04f6f; }
@@ -685,7 +688,8 @@ input {
 
 .bg-greendark-color {
   background-color: #8dc63f; }
-
+.bg-greendark1-color {
+  background-color: #6B5B95; }
 .bg-white-color {
   background-color: #fff; }
 
@@ -693,7 +697,7 @@ input {
   background-color: #6739b6; }
 
 .bg-border-color {
-  background-color: #ccfff9; }
+  background-image: linear-gradient(to right top, #6bd179, #58deb5, #72e7e1, #a6ecfa, #d8f1ff, #ddecff, #ebe5ff, #fdddfa, #ffbedf, #ffa0af, #ff8a70, #f28321); }
 
 .bg-dark-color {
   background-color: #302c2d; }
@@ -712,7 +716,10 @@ input {
 
 .bg-greydark-color {
   background-color: #434141; }
-
+.testimonial-img{
+	margin-left:-100px;
+	margin-bottom:44px;
+}
 .bg-boxed-dark {
   background-image: url("../img/bg-boxed-dark.jpg"); }
 
