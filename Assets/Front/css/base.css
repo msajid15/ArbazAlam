@@ -368,7 +368,7 @@ p {
 
 figure {
   margin: 0; }
-
+}
 select {
   width: 100%;
   border: 1px solid #acacac;
@@ -526,6 +526,9 @@ input {
 
 .full-height {
   height: 100%; }
+.img-align{
+  padding-right: -50%;
+}
 
 .display-flex {
   display: -webkit-box;
@@ -694,11 +697,23 @@ input {
   background-color: #fff; }
 
 .bg-violet-color {
-  background-color: #6739b6; }
+  background-color:#45A29E; }
 
 .bg-border-color {
   background-image: linear-gradient(to right top, #6bd179, #58deb5, #72e7e1, #a6ecfa, #d8f1ff, #ddecff, #ebe5ff, #fdddfa, #ffbedf, #ffa0af, #ff8a70, #f28321); }
-
+.bg-border1 {
+  background: linear-gradient(to right, #00467f, #a5cc82);
+}
+.bg-border3 {
+  background: linear-gradient(to right, #005aa7, #fffde4);
+}
+.bg-border2 {
+  background: linear-gradient(to right, #076585, #fff);
+}
+}
+.bg-border5{
+	background: linear-gradient(to right, #005aa7, #fffde4);
+}
 .bg-dark-color {
   background-color: #302c2d; }
 
@@ -790,6 +805,70 @@ h1, .h1 {
     font-size: 16px;
     line-height: 30px;
 }
+.poster {
+	height:100vh;
+	background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+.conslt-header{
+   color:white;
+   Text-align:center;
+   margin-top:13%;
+}
+.conslt-head{
+	font-weight: bold;
+	color:red;
+}
+.conslt-btn {
+	border-radius: 10px;
+	font-size:20px;
+	background-color:#ebd636;
+	color:black;
+	padding:5px;
+}
+.stl-constl{
+	background-color:orange;
+	color:black;
+	padding:5px;
+	border-radius: 12px;
+}
+.consult-img {
+	padding-top:10%;
+}
+.you-vido{
+	height:100vh;
+	text-align:center;
+}
+.you-vid{
+	
+	width:70%;
+	height: 80%;
+	
+}
+.intro{
+	margin:40px;
+}
+.name-constl{
+	font-weight:100px;
+}
+.intro-tlt{
+	
+	text-align:center;
+	color:black;
+}
+.con-p{
+	font-size:25px;
+	font-family: "Times New Roman", Times, serif;
+	padding-left:15%;
+	padding-right:15%;
+}
+.conslt-btn2 {
+	border-radius: 10px;
+	font-size:20px;
+	background-color:#ebd636;
+	color:black;
+	margin:30px;
+	padding:10px;
+}
 h2, .h2 {
   margin: 0;
   font-size: 42px;
@@ -825,6 +904,8 @@ h3, .h3 {
   @media (max-width: 480px) {
     h3, .h3 {
       font-size: 22px; } }
+
+
 
 h4, .h4 {
   margin: 0;
